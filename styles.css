@@ -1,0 +1,58 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+h1 {
+    font-family: "Sour Gummy", sans-serif;
+}
+
+i {
+    color: yellow;
+}
+/* 
+div p {
+    background-color: red;
+} */
+
+.rojo {
+    background-color: red;
+}
+
+/* #pepe:hover{
+    background-color: aqua;
+    font-size: 50px;
+} */
+
+#pepe{
+    background-color: aqua;
+    font-size: 50px;
+}
+
+/* a {
+    color:purple;
+    font-size: 2rem;
+} */
+
+a[href="https://www.google.co.ve/"]{
+    color: aqua;
+    font-size: 2rem;
+}
+
+.box {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    margin: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+
+p{
+    border: 1px solid black;
+}
